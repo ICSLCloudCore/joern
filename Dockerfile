@@ -65,4 +65,4 @@ WORKDIR /joern
 EXPOSE 8080
 
 # 启动命令（优化启动参数）
-CMD ["./joern.sh", "--server", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["./joern", "--server", "--server-host", "0.0.0.0", "--server-port", "8081"]
